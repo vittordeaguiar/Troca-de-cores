@@ -9,12 +9,12 @@ body * {
     box-sizing: border-box;
 }
 
-.nav-center {
+nav {
     display: flex;
     justify-content: center;
 }
 
-.container {
+main {
     height: 75vh;
     width: 50vw;
     position: relative;
