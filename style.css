@@ -16,7 +16,7 @@ nav {
 }
 
 main {
-    background:rgba(134, 134, 134, 0.377);
+    background: rgba(134, 134, 134, 0.377);
     height: 60vh;
     width: 40%;
     position: relative;
@@ -58,18 +58,19 @@ main {
     display: flex;
     justify-content: center;
     margin-top: -10px;
-    
-@media only screen and (max-width: 1000px) {
-    main {
-        width: 95%;
-        height: 50vh;
-    }
 
-    .btn-login {
-        width: 80%;
-    }
+    @media only screen and (max-width: 1000px) {
+        main {
+            width: 95%;
+            height: 50vh;
+        }
 
-    .text-field>input {
-        width: 100%;
+        .btn-login {
+            width: 80%;
+        }
+
+        .text-field>input {
+            width: 100%;
+        }
     }
 }
